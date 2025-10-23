@@ -27,13 +27,13 @@ public class BilanganKecil {
             System.out.println("Ketiga angka sama kecil, yaitu: " + terkecil);
         } else if ((angka1 == terkecil && angka2 == terkecil) || (angka1 == terkecil && angka3 == terkecil)
                 || (angka2 == terkecil && angka3 == terkecil)) {
-            System.out.println("Beberapa angka terkecil: ");
+            System.out.print("Beberapa angka terkecil: ");
             if (angka1 == terkecil)
-                System.out.println(angka1 + "");
+                System.out.print(angka1 + "");
             if (angka2 == terkecil)
-                System.out.println(angka2 + "");
+                System.out.print(angka2 + "");
             if (angka3 == terkecil)
-                System.out.println(angka3 + "");
+                System.out.print(angka3 + "");
             System.out.println();
         } else {
             System.out.println("Bilangan paling kecil yaitu: " + terkecil);
