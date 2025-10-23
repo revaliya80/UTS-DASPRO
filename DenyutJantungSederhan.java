@@ -4,10 +4,10 @@ public class DenyutJantungSederhan {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukkan usia anda:");
+        System.out.print("Masukkan usia anda:");
         int usia = sc.nextInt();
 
-        System.out.println("Masukkan detak jantung (denyut/menit):");
+        System.out.print("Masukkan detak jantung (denyut/menit):");
         int HR = sc.nextInt();
 
         int MHR = 220 - usia;
@@ -34,10 +34,10 @@ public class DenyutJantungSederhan {
         }
 
         System.out.println("\n=== Hasil ===");
-        System.out.println("MHR: " + MHR);
-        System.out.println("% MHR:" + persenMHR + "%");
-        System.out.println("Kategori: " + kategori);
-        System.out.println("Saran: " + saran);
+        System.out.println("MHR \t\t: " + MHR);
+        System.out.println("% MHR \t\t: " + persenMHR + "%");
+        System.out.println("Kategori \t: " + kategori);
+        System.out.println("Saran \t\t: " + saran);
     }
 
 }
