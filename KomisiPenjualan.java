@@ -28,15 +28,15 @@ public class KomisiPenjualan {
             System.out.println("\nTidak memenuhi syarat komisi (rating < 70).");
         } else {
             if (omset < 50000000) {
-                persenKomisi = 1;
+                persenKomisi = 0.01;
             } else if (omset < 100000000) {
-                persenKomisi = 2;
+                persenKomisi = 0.02;
             } else {
-                persenKomisi = 3;
+                persenKomisi = 0.03;
             }
 
             if (rating >= 90) {
-                persenKomisi += 1;
+                persenKomisi += 0.01;
             }
 
             if (sertifikasi.equalsIgnoreCase("ya")) {
